@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(219, 121, 0);
+  font-family: cursive;
+}
+main {
+  background-color: #fff;
+  /* border-radius: 20px; */
+  width: 70%;
+  height: auto;
+  margin: 80px auto;
+  padding: 4%;
+}
+.total_price {
+  display: flex;
+  justify-content: center;
+  color: darkorange;
+}
+table {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+td {
+  width: 30%;
+ 
+}
+.price{
+  font-size: larger;
+}
+.product_name{
+  font-size: large;
+  font-weight: 900;
+}
+.btn{
+  border-radius: 20px;
+  margin: 20px;
+}
+.fa{
+  font-size: 30px;
+}

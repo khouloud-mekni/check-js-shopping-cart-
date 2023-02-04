@@ -1,0 +1,161 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn-icons-png.flaticon.com/512/1583/1583277.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Shopping Cart</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!--------------------- main --------------------->
+    <main>
+      <section class="products_list">
+        <div class="total_price">
+          <h1>Total: <span id="total">0 </span> DT</h1>
+        </div>
+
+        <table>
+          <th>Product</th>
+          <th>Price</th>
+          <th>quantité</th>
+          <tr>
+            <!---------------------item 1---------------------->
+            <div class="product_item" id="item_1">
+              <td>
+                <img
+                  src="https://mistore.com.tn/wp-content/uploads/2022/05/pack-2.jpg"
+                  width="200"
+                  alt="air jordan"
+                  class="product_image"
+                />
+                <span class="product_name">Pack Xiaomi 12 Pro</span>
+              </td>
+              <td>
+                <h2 class="price"><span id="item_1_price">5298 </span>DT</h2>
+              </td>
+              <td>
+                <button type="button" class="btn btn-dark plus" name="item_1">
+                  +
+                </button>
+                <span class="product_quantity" id="item_1_qty">0</span>
+                <button
+                  type="button"
+                  class="btn btn-warning minus"
+                  name="item_1"
+                >
+                  -
+                </button>
+              </td>
+              <td>
+                <i class="fa fa-heart" style="color: grey"></i>
+              </td>
+              <td>
+                <button class="btn btn-danger" name="item_1">Delete</button>
+              </td>
+            </div>
+          </tr>
+          <!----------------------item 2--------------------------->
+          <tr>
+            <div class="product_item" id="item_2">
+              <td>
+                <img
+                  src="https://mistore.com.tn/wp-content/uploads/2022/10/trottinette-electrique-xiaomi-mi-electric-scooter-4-pro.png"
+                  width="200"
+                  alt="MI ELECTRIC SCOOTER"
+                  class="product_image"
+                /><span class="product_name"
+                  >Xiaomi MI Electric Scooter 4 Pro</span
+                >
+              </td>
+              <td>
+                <h2 class="price"><span id="item_2_price">3649</span>DT</h2>
+              </td>
+              <td>
+                <button type="button" class="btn btn-dark plus" name="item_2">
+                  +
+                </button>
+                <span class="product_quantity" id="item_2_qty">0</span>
+                <button
+                  type="button"
+                  class="btn btn-warning minus"
+                  name="item_2"
+                >
+                  -
+                </button>
+              </td>
+              <td>
+                <i class="fa fa-heart" style="color: grey"></i>
+              </td>
+              <td>
+                <button class="btn btn-danger" name="item_2">Delete</button>
+              </td>
+            </div>
+          </tr>
+          <tr>
+            <!-------- item 3---------->
+            <div class="product_item" id="item_3">
+              <td>
+                <img
+                  src="https://mistore.com.tn/wp-content/uploads/2021/12/xiaomi_flipbuds_pro.jpg"
+                  width="170"
+                  alt="FlipBuds Pro Ecouteur
+          "
+                  class="product_image"
+                /><span class="product_name"
+                  >Xiaomi FlipBuds Pro Ecouteur Sans Fil
+                </span>
+              </td>
+              <td>
+                <h2 class="price"><span id="item_3_price">719</span>DT</h2>
+              </td>
+              <td>
+                <button type="button" class="btn btn-dark plus" name="item_3">
+                  +
+                </button>
+                <span class="product_quantity" id="item_3_qty">0</span>
+                <button
+                  type="button"
+                  class="btn btn-warning minus"
+                  name="item_3"
+                >
+                  -
+                </button>
+              </td>
+
+              <td>
+                <i class="fa fa-heart" style="color: grey"></i>
+              </td>
+              <td>
+                <button class="btn btn-danger" name="item_3">Delete</button>
+              </td>
+            </div>
+          </tr>
+        </table>
+      </section>
+    </main>
+
+    <!--------------------- footer --------------------->
+    <footer>
+      <h1>Welcome</h1>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+
+  
+</html>
